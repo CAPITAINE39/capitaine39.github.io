@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> cliquegagne </title>
+  <title>cliquegagne</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -91,21 +91,19 @@
 </head>
 <body>
 
-  <!-- Musique de fond -->
   <audio id="bg-music" autoplay loop>
     <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
   </audio>
 
-  <!-- Son de réussite -->
   <audio id="success-sound">
     <source src="https://assets.mixkit.co/sfx/preview/mixkit-achievement-bell-600.mp3" type="audio/mp3">
   </audio>
 
   <div class="container">
-    <h1>Bienvenue sur Samsung Bonus</h1>
+    <h1>Bienvenue sur cliquegagne</h1>
     <p>Partage à <strong>15 amis</strong> et <strong>5 groupes</strong> pour débloquer tes Méga.</p>
     <p><strong>100 Mo</strong> gagnés à chaque ami invité.</p>
-    <a class="share-btn" href="https://wa.me/?text=Gagne%20des%20Mégas%20gratuits%20ici%20:%20https://capitaine39.github.io/Samsungbonus/" onclick="incrementerCompteur();">Partager sur WhatsApp</a>
+    <a class="share-btn" href="https://wa.me/?text=J’ai%20reçu%20mes%20Méga%20ici%20:%20https://capitaine39.github.io/cliquegagne/" onclick="incrementerCompteur();">Partager sur WhatsApp</a>
     <div id="compteur">Tu as partagé à 0 amis. Encore 15 !</div>
 
     <form id="form-telephone">
