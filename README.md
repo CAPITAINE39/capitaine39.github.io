@@ -128,6 +128,18 @@
     <p style="margin-top: 20px;">Après avoir partagé, ferme la page. Tes Méga arrivent bientôt !</p>
   </div>
 
+  <!-- Publicité Google AdSense -->
+  <div style="text-align:center;">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle"
+         style="display:block; width: 100%; height: 250px;"
+         data-ad-client="ca-pub-4230761292218145"
+         data-ad-slot="1234567890"></ins>
+    <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
   <script>
     let partages = 0;
     function incrementerCompteur() {
